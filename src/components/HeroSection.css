@@ -1,0 +1,57 @@
+.hero-section {
+   
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn-get-started, .btn-learn-more {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .btn-get-started {
+    background-color: #017a73;
+    color: white;
+  }
+  
+  .btn-get-started:hover {
+    background-color: #016159;
+  }
+  
+  .btn-learn-more {
+    background-color: white;
+    color: #017a73;
+    border: 2px solid #017a73;
+  }
+  
+  .btn-learn-more:hover {
+    background-color: #f0f0f0;
+  }
+  

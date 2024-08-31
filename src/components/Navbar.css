@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem 2rem; */
+    background-color: #f2ecec;
+  }
+  
+  .navbar-brand .logo {
+    height: 80px;
+    
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .btn-contact {
+    padding: 0.5rem 1rem;
+    background-color: #017a73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-contact:hover {
+    background-color: #016159;
+  }
+  
